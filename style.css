@@ -1,4 +1,8 @@
-@import url(db.onlinewebfonts.com/c/0b51833ff62e4af8acb5fd3e2bf59e97?family=SF+Pro+Display);
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url("./fonts/SF-Pro-Display-Medium.otf"), url("./fonts/SF-Pro-Display-Regular.otf"), url("./fonts/SF-Pro-Display-Bold.otf");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -452,6 +456,10 @@ section .link i {
 
 .about-section .content {
   margin-top: 50px;
+}
+
+.about-section .content .section-description {
+  font-weight: 400;
 }
 
 @media screen and (max-width: 768px) {
